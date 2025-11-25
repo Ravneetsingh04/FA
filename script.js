@@ -99,16 +99,16 @@ const galleryData = [
   { img: "IMG_7556.JPG", text: names[2] },
   { img: "IMG_9036.jpeg", text: names[3] },
   { img: "IMG_0321.jpg", text: names[7] },
-  { img: "IMG_9054.png", text: names[12] },
+  { img: "IMG_9054.PNG", text: names[12] },
   { img: "IMG_8963.jpeg", text: names[10] },
   { img: "IMG_7881.jpg", text: names[4] },
   { img: "IMG_7489.jpg", text: names[8] },
-  { img: "IMG_8690.jpg", text: names[11] },
-  { img: "IMG_9034.jpg", text: names[14] },
-  { img: "IMG_8406.jpg", text: names[5] },
+  { img: "IMG_8690.JPG", text: names[11] },
+  { img: "IMG_9034.JPG", text: names[14] },
+  { img: "IMG_8406.JPG", text: names[5] },
   { img: "IMG_7017.jpg", text: names[13] },
-  { img: "IMG_9031.jpg", text: names[9] },
-  { img: "IMG_9055.png", text: names[15] },
+  { img: "IMG_9031.JPG", text: names[9] },
+  { img: "IMG_9055.PNG", text: names[15] },
 ];
 
 const galleryContainer = document.getElementById("gallery");
