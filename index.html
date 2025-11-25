@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fallingrain.css">
+  <title>Happy Friendsversary!</title>
+</head>
+<body>
+  
+  <div class="rain-container"></div>
+
+  <div class="container">
+    <h1>🎉 Happy Friendsversary, <span id="name">To Us!</span>! 🎉</h1>
+    <h2>Today, last year I unexpectedly met my favourite person! 💖✨</h2>
+    <p>Tap below for a magical surprise!</p>
+    <button onclick="showSurprise()">Reveal my Thoughts about you!</button>
+
+    <div id="surprise">
+      <h2>🎂 A Sweet Little Surprise from my side 🎂</h2>
+      <div class="emoji-cake">🎂🎉</div>
+      <p>Today truly feels like one of the best days of my life 💫 because it reminds me of how I met one of the most unexpected yet special people ever. We studied in the same school, went to different colleges, never crossed paths properly… and still somehow ended up meeting in the most random, unexpected way. Honestly, it really feels like God’s plan ✨.
+
+In just a year, she has become someone who feels like a childhood friend — someone I’m completely comfortable with, someone who bullies me 24/7 😭😂, but someone I would never stop talking to. Time literally flies when she’s around ⏳💛.
+
+And now, she’s also officially my personal designer 😌 — styling my outfits so perfectly that everyone ends up complimenting them.
+
+We don’t meet often, but somehow we never lose touch either. And that’s what makes our bond even more special 💕.
+
+I genuinely wish you all the happiness your heart dreams of, and I hope our friendship stays this pure and strong for a lifetime 💖♾️.
+And listen—don’t you ever disappear from my life 😤❤️, because I honestly can’t afford that now. Stay exactly the way you are with me, don’t you dare change. Let’s hope we celebrate many, many more Friendsversaries together 🥂✨.
+
+Happy Friendsversary, my cutest friend! 🫶✨</p>
+      <button onclick="showQuote()">Click me to remember some of our memories together!</button>
+      <div id="quote-box"></div>
+    </div>
+
+    <!-- New button to reveal gallery -->
+<button id="showGalleryBtn" class="gallery-btn" style="display:none;" >
+  📸 Our Combined Photo Gallery
+</button>
+
+    <!-- 📸 PHOTO GALLERY -->
+    <div class="photo-gallery" id="photoGallery" style="display:none;">
+      <h2>📸 Our Combined Photo Gallery</h2>
+
+      <div id="gallery" class="gallery-grid">
+        <!-- JS loads pictures here -->
+      </div>
+    </div>
+
+  </div>
+  <!-- ⭐ POPUP OVERLAY FOR BIG FLIP CARD -->
+<div id="popupOverlay" class="popup-overlay">
+  <div class="popup-card">
+    <span class="close-popup">&times;</span>
+
+    <div class="flip-card-large" id="bigFlipCard">
+      <div class="flip-inner-large">
+        <div class="flip-front-large">
+          <img id="popupImage" src="" alt="Big Photo" />
+        </div>
+
+        <div class="flip-back-large" id="popupText"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <div class="owner">Created by:- Ravneet Singh</div>
+
+  <script src="script.js"></script>
+</body>
+</html>

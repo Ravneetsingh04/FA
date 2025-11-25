@@ -1,0 +1,31 @@
+
+       
+        .rain-container {
+            
+           display: none;
+            
+        }
+
+        .displayRain{
+
+display: initial;
+
+        }
+        .raindrop {
+            position: absolute;
+           
+            animation: fall linear infinite;
+            z-index: 0;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-100vh);
+            }
+            100% {
+                transform: translateY(100vh);
+            }
+        }
+
+        /* Generate multiple raindrops */
+      
