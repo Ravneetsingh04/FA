@@ -96,7 +96,7 @@ const galleryData = [
   { img: "IMG_9026.jpeg", text: names[0] },
   { img: "IMG_8770.jpg", text: names[6] },
   { img: "IMG_9029.jpeg", text: names[1] },
-  { img: "IMG_7556.jpg", text: names[2] },
+  { img: "IMG_7556.JPG", text: names[2] },
   { img: "IMG_9036.jpeg", text: names[3] },
   { img: "IMG_0321.jpg", text: names[7] },
   { img: "IMG_9054.png", text: names[12] },
